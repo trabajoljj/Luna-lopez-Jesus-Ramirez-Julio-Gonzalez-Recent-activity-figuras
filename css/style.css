@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+#botones{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    
+    color: #05a1fc;
+padding:100px 0px;     
+background: url("../img/omid-armin-hsTffDXJAqU-unsplash.jpg");
+background-size: cover;
+}
+#botones button{
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+padding: 14px 30px;
+background:transparent;
+border: 2px solid #000;
+color: #fff;
+font-size: 22px;
+text-transform: uppercase;
+margin: 15px;
+border-radius: 15px;
+}
+#botones h1{
+    color: rgb(132, 0, 255) ;
+    font-size: 40px;
+}
+body{font-family: 'Roboto', sans-serif;}
+#botones button:hover{background-color: #000;
+padding: 7px 25px;
+}
+
+
+
+
+/* estilos ejercicio figuras */
+#contPrincipal{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    padding: 80px;
+    background: #a82909
+}
+
+#contPrincipal #botones{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border:2px solid #080808
+}
+#contPrincipal #contFigura{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border:2px solid #141414
+}
+
+#figura{
+    transition: .5s;
+    width: 200px;
+    height: 200px;
+    background-color: #05a1fc;
+    margin: 40px auto ;
+}
+#figura.Circulo{
+    border-radius: 50%;
+    transition: .5s;
+
+}
+#figura.Rectangulo{
+    width: 350px;
+    transition: .5s;
+}
+#figura.Rombo {
+    transition: .5s;
+    transform: rotate(45deg);
+}
+#figura.Gif {
+    transition: .5s;
+    background: url("../img/homer.gif");
+    background-size: cover;
+
+}
+#figura.Izquierda {
+    border-radius: 50%;
+    transition: .5s;
+    transform: translateX(-200px);
+    background-size: cover;
+}
+#figura.Derecha {
+    border-radius: 50%;
+    transition: .5s;
+    transform: translateX(200px);
+    background-size: cover;
+}
+#figura.Arriba {
+    border-radius: 50%;
+    transition: .5s;
+    transform: translateY(-200px);
+    background-size: cover;
+}
+#figura.Abajo {
+    border-radius: 50%;
+    transition: .5s;
+    transform: translateY(200px);
+    background-size: cover;
+}
+#figura.Diagonal {
+    border-radius: 50%;
+    transition: .5s;
+    transform:translate(200px,200px);
+    background-size: cover;
+}
